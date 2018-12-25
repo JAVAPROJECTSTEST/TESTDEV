@@ -10,7 +10,7 @@ namespace WebAPISample.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Title = "Welcome Home Page";
+            string Welome = "Hi Data";
 
             return View();
         }
