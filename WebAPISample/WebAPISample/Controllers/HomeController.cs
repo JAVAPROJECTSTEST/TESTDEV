@@ -12,6 +12,7 @@ namespace WebAPISample.Controllers
         {
             string Welome = "Hi Data";
             ViewData["Hi"] = "srini";
+            ViewData["HiRam"] = "sriniVasulu";
 
             return View();
         }
