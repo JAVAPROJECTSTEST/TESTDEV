@@ -11,6 +11,7 @@ namespace WebAPISample.Controllers
         public ActionResult Index()
         {
             string Welome = "Hi Data";
+            ViewData["Hi"] = "srini";
 
             return View();
         }
